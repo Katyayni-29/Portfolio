@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></style>
+    <script src="https://kit.fontawesome.com/93f58be8d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo (2).png" class="logo">
+            <!-- <div class="logo">Welcome</div> -->
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <div class="header-text">
+                <p>Software Engineering</p>
+                <h1>Hi,I'm <span>Katyayni</span> Rajput <br>from India</h1>
+            </div>
+        </nav>   
+        </div> 
+    </div>
+    
+    <!-- -----------------about------------------- -->
+    <div id="about"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="try1.jpg">
+            </div>
+            <div class="col-2">
+                <h1 class="subtitle">About Me</h1>
+                <br><br><br>
+                <p>Hello! I’m Katyayni, a passionate and detail-oriented creative professional dedicated to bringing ideas to life through design and technology. With a blend of artistic vision and technical skill, I strive to craft digital experiences that are both visually compelling and user-friendly. I’m constantly exploring new tools, trends, and challenges to grow as a creator and make a meaningful impact.</p>
+                <br><br>
+                <div class="tabtitle">
+                    <div class="tab-links active-link" onclick="opentab('skills',event)">Skills</div>
+                    <div class="tab-links" onclick="opentab('experience',event)">Experience</div>
+                    <div class="tab-links" onclick="opentab('education',event)">Education</div>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>C++ Programming</span><br>Basic Concepts, Object-Oriented Programming (OOP), Data structure and algorithum</li>
+                        <li><span>FrontEnd</span><br>HTML , CSS , Javascript , React</li>
+                        <li><span>Spring Framework</span><br>Basic Backend Projects</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <!-- <li><span>Accentue</span><br>As an software Engineering</li>
+                        <li><span>Accentue</span><br>As an software Engineering</li>
+                        <li><span>Accentue</span><br>As an software Engineering</li> -->
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>LNCT </span><br>Bachlore of engineering in Artificial Intelligence and Data science</li>
+                        <li><span>BHARAT BHARTI VIDYALAYA</span><br>Senior Secondary 12th Board</li>
+                        <li><span>BHARAT BHARTI VIDYALAYA</span><br>Higher Secondary 10th Board</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------services----------------- -->
+    <div id="services">
+        <div class="container">
+            <div class="subtitle">My Services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C++ Programming</h2>
+                    <p>"Developing efficient and optimized solutions using C++. With a deep understanding of algorithms and data structures, I tackle complex problems and build robust applications."</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Design</h2>
+                    <p>"Building visually engaging and functional websites using HTML, CSS, JavaScript, and React. I craft responsive designs, implement interactive features, and create dynamic, component-based UIs to deliver seamless user experiences across all devices."</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Spring Framework</h2>
+                    <p>"Building robust and scalable backend solutions with the Spring Framework. 
+    I specialize in crafting secure, high-performance applications by leveraging 
+    Spring Boot, Spring Data JPA, and RESTful APIs to deliver clean, maintainable, 
+    and enterprise-ready software."</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Heart Disease</h3>
+                        <p>"Developed a comprehensive heart disease prediction system that utilizes machine learning algorithms to analyze patient data and predict the likelihood of heart disease. The project focuses on accurate diagnostics, providing valuable insights for early intervention and prevention."</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>"Designed and developed a personal portfolio website using HTML, CSS and JavaScript. The site showcases my skills, projects, and achievements in a visually appealing and user-friendly layout. It features a responsive design and interactive components, highlighting my expertise in web development."</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>StudyMate – Chrome Extensio</h3>
+                        <p>Built a professional and minimal Chrome extension using HTML, CSS, and JavaScript. 
+            The extension helps students boost productivity by integrating multiple tools in one place, 
+            including a to-do list, notes manager, and motivational quotes. Designed with a clean UI, 
+            smooth interactions, and lightweight performance for everyday use.</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-----------------contact------------------>
+    <div id="contact">
+        <div class="contanier">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="subtitle">Contact Me</div>
+                    <p><i class="fa-solid fa-envelope-circle-check"></i>katyaynirajput@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7389368439</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="/my-cv.pdf" class="btn  btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Katyayni Rajput<i class="fa-solid fa-heart"></i>With Love</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-content");
+        function opentab(tabname,event){
+            console.log("called");
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+</body>
+</html>
